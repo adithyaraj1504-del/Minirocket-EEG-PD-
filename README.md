@@ -1,6 +1,6 @@
 # EEG MiniRocket Evaluation & Benchmarking Project
 
-This repository contains a collection of Jupyter notebooks investigating the performance of **MiniRocket** (and its proposed variants) on EEG data, alongside several state-of-the-art deep learning models used for benchmarking. 
+This repository contains a collection of Jupyter notebooks investigating the performance of **MiniRocket** (and its proposed variants) on EEG data, alongside several state-of-the-art deep learning models used for benchmarking.
 
 ---
 
@@ -26,11 +26,11 @@ These notebooks test the sensitivity, resilience, and generalizability of the pr
 
 | Notebook | Description | Perturbation / Setting |
 | :--- | :--- | :--- |
-| `advanced-minirocket-noise-analysis.ipynb` | Noise robustness analysis | Added Gaussian noise with $\text{noise\_db} = 10$ |
-| `amplitude_scaling_for_mini_rocket_work_.ipynb` | Amplitude scaling evaluation | All channels evaluated with amplitude scaled by a factor of $2$ |
-| `different-sampling-rate.ipynb` | Sampling rate frequency test | Evaluated at **200 Hz** (compared to the standard 256 Hz) |
-| `record_trunkation_for_mini_rocket_work_.ipynb` | Signal truncation test | Evaluated by truncating signals to **50%** length |
-| `time-shifting.ipynb` | Temporal shift robustness | Evaluated by shifting signals by **2 seconds** |
+| `advanced-minirocket-noise-analysis.ipynb` | Noise robustness analysis | Added Gaussian noise (`noise_db = 10`) |
+| `amplitude_scaling_for_mini_rocket_work_.ipynb` | Amplitude scaling evaluation | All channels evaluated with amplitude scaled by factor of 2 |
+| `different-sampling-rate.ipynb` | Sampling rate frequency test | Evaluated at 200 Hz (standard: 256 Hz) |
+| `record_trunkation_for_mini_rocket_work_.ipynb` | Signal truncation test | Evaluated by truncating signals to 50% length |
+| `time-shifting.ipynb` | Temporal shift robustness | Evaluated by shifting signals by 2 seconds |
 
 ---
 
