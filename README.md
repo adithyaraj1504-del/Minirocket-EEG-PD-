@@ -8,11 +8,12 @@ This repository contains a collection of Jupyter notebooks investigating the per
 
 The codebase is divided into **Proposed MiniRocket Variants**, **Robustness & Ablation Studies**, and **Benchmarking Models**.
 
-### 1. Proposed MiniRocket Variants (Channel-Specific Evaluations)
-These notebooks evaluate the proposed MiniRocket architecture using specific subsets of EEG brain regions to analyze spatial contributions to model performance.
+### 1. Proposed MiniRocket Variants (Channel-Specific & All-Channel Evaluations)
+These notebooks evaluate the proposed MiniRocket architecture using specific subsets of EEG brain regions and the complete channel set to analyze performance.
 
 | Notebook | Description | Channels Used |
 | :--- | :--- | :--- |
+| `advanced-minirocket-correct-version.ipynb` | **Proposed MiniRocket Model (All Channels)** | **All Channels (Complete EEG Set)** |
 | `advanced-minirocket-frontal-channels.ipynb` | Frontal channel evaluation | `Fp1`, `Fp2`, `AFz`, `AF3`, `AF4`, `Fz`, `F1`, `F2`, `F3`, `F4`, `F5`, `F6`, `F7`, `F8`, `F9`, `F10` |
 | `advanced-minirocket-occiptial-channels.ipynb` | Occipital channel evaluation | `O1`, `O2`, `Oz`, `POz`, `PO3`, `PO4` |
 | `advanced-rocket-pariental-channel.ipynb` | Parietal channel evaluation | `Pz`, `P1`, `P2`, `P3`, `P4`, `P5`, `P6`, `P7`, `P8`, `P9`, `P10`, `POz`, `PO3`, `PO4` |
