@@ -36,16 +36,16 @@ These notebooks test the sensitivity, resilience, and generalizability of the pr
 ---
 
 ### 3. Benchmarking Models & Baselines
-These notebooks implement various baseline architectures to compare against the proposed MiniRocket variants.
+These notebooks implement various baseline architectures to compare against the proposed MiniRocket variants across both resting-state and walking-state EEG recordings.
 
 | Notebook | Model / Framework | Description |
 | :--- | :--- | :--- |
-| `minirocket_original_model_for_minirocket_work.ipynb` | **Original MiniRocket** | Standard MiniRocket baseline for comparison |
-| `motion_codes_pd.ipynb` | **MiniRocket (Motion/PD)** | Motion/Parkinson's Disease specific MiniRocket application |
-| `atc_model_for_minirocket_work.ipynb` | **ATC Model** | Attention-based Temporal Convolution benchmarking |
+| `minirocket_original_model_for_minirocket_work.ipynb` | **Original MiniRocket** | Standard MiniRocket baseline evaluated on both walking and resting EEG data |
+| `motion_codes_pd.ipynb` | **MotionCodes** | Motion/Parkinson's Disease specific MotionCodes application evaluated on both walking and resting EEG data |
+| `atc_model_for_minirocket_work.ipynb` | **ATC Model** | Attention-based Temporal Convolution benchmarking evaluated on both walking and resting EEG data |
 | `conformer-resting.ipynb` | **Conformer (Resting)** | Conformer model evaluated using resting-state EEG data |
 | `conformer-walking.ipynb` | **Conformer (Walking)** | Conformer model evaluated using walking-state EEG data |
-| `eeg_model_for_minirocket_work.ipynb` | **EEGNet** | Compact convolutional neural network for EEG-based BCI |
-| `fedformer-pd.ipynb` | **FEDformer** | Frequency Enhanced Decomposed Transformer for time-series forecasting/classification |
-| `inception-time-eeg-pg.ipynb` | **InceptionTime** | Ensemble of Inception networks for time-series classification |
-| `mamba-for-pd.ipynb` | **Mamba** | State Space Model (SSM) architecture benchmarking |
+| `eeg_model_for_minirocket_work.ipynb` | **EEGNet** | Compact convolutional neural network for EEG-based BCI evaluated on both walking and resting EEG data |
+| `fedformer-pd.ipynb` | **FEDformer** | Frequency Enhanced Decomposed Transformer evaluated on both walking and resting EEG data |
+| `inception-time-eeg-pg.ipynb` | **InceptionTime** | Ensemble of Inception networks evaluated on both walking and resting EEG data |
+| `mamba-for-pd.ipynb` | **Mamba** | State Space Model (SSM) architecture evaluated on both walking and resting EEG data |
